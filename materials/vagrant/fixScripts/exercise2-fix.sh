@@ -1,2 +1,2 @@
 #!/bin/bash
-#add fix to exercise2 here
+sudo perl -pi -e "s,^127.0.0.1.*www.ascii-art.de\n$,," /etc/hosts
